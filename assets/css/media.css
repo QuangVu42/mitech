@@ -1,0 +1,1217 @@
+/* ================== reponsive ======================*/
+/*======================= content================
+1. 1200 ----- max no reponsive
+2. 1024 - 1199
+2. 992 - 1023
+3. 769 - 991
+4.
+5.
+6.
+*/
+
+@media (min-width: 1200px) {
+	.headerpage .headerpage_menu .headerpage_search{
+		display: none;
+	}
+	.menu{
+		display: none;
+	}
+}
+
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+	.headerpage .headerpage_menu .headerpage_search{
+		display: none;
+	}
+	.menu{
+		display: none;
+	}
+	.headerpage .headerpage_menu .headerpage_menu-list .list_item .list_item-dropdown {
+		width: 182px;
+	}
+	.technology .technology_heading{
+		margin-bottom: 100px;
+	}
+	.technology .technology_content .technology_content-management .technology_content-title .title_box{
+		margin-top: -10px;
+	}			/* áp dụng cho technology management , plan and desktop */
+	.technology .technology_content .technology_content-plan .technology_content-title .title_box{
+		margin-top: -20px;
+	}
+	.technology .technology_content  .technology_content-desktop .technology_content-title .title_box{
+		margin-top: -20px;
+		
+	}
+	.headerpage .headerpage_menu .headerpage_menu-list .list_item{
+		padding-left: 30px;
+	}
+	.company .row .col-12 .company_img .company_img-five{
+		width: 400px;
+	}
+	.services .content .services_solutions{
+		justify-content: center;
+	}
+	.technology .technology_content {
+		padding: initial;
+	}
+	.technology .technology_content .technology_content-management{
+		height: 267px;
+	}
+		.technology .technology_content .img .technology_content-title{
+			padding-top: 14px;
+		}
+	.technology .technology_content .technology_content-plan {
+		height: 269px;
+	}
+	.phone .phone_contact{
+		padding-left: 150px;
+	}
+	.footer .footer_top .row .col-12{
+	text-align: center;
+	}
+	.footer .footer_top .row .col-12 .footer_top-info img{
+	display: inline;
+	}
+	.footer .footer_top .row .col-12 .footer_top-app{
+	display: flex;
+	justify-content: center;
+	}
+	.footer .footer_top .row .col-12 .footer_top-app .app_android{
+	margin-bottom: auto;
+	margin-right: 30px;
+	}
+	.testimonials .testimonials_staff{
+	width: 450px;
+    height: 300px;
+    margin-left: 15px;
+	}
+	.testimonials .container{
+		max-width: 1000px;
+	}
+}
+
+@media (min-width:992px)and (max-width: 1023px) {
+/*.header{
+	display: none;
+}
+*/
+	.headerpage .headerpage_menu .headerpage_search{
+			
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-logo a {
+		color: black;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-logo{
+		font-size: 20px;
+		margin-right: 25px;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-dropdown i{
+		font-size: 25px;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-icon{
+		display: none;
+	}
+	.headerpage .headerpage_menu .headerpage_menu-list {
+		display: none;
+	}
+	.banner .banner_img{
+		margin-top: 270px;
+
+	}
+	.banner .banner_img img{
+		height: 500px;
+	}
+	.company .row .col-12 .company_img .company_img-five{
+		width: 400px;
+		left: 15%;
+	}
+	.company .row .col-12 .company_img .company_img-four{
+		right: 0;
+	}
+	.services .content .services_solutions{
+		justify-content: center;
+	}
+	.technology .technology_content .img{
+		height: 330px;
+	}
+	.technology .technology_content{
+		grid-template-columns: repeat(6, 1fr);
+	}
+	.technology .technology_content .technology_content-management {
+	grid-column: span 3;
+	background-position: center;
+	}
+	.technology .technology_content .technology_content-security {
+		grid-column: span 3;
+		background-repeat: round;
+	}
+	.technology .technology_content .technology_content-reform {
+		grid-column: span 3;
+		background-position: center;
+	}
+	.technology .technology_content .technology_content-plan {
+		grid-column: span 3;
+		background-repeat: round;
+	}
+	.technology .technology_content .technology_content-desktop{
+		grid-column: span 3;
+		background-position: center;
+	}
+	.technology .technology_content .technology_content-software {
+		grid-column: span 3;
+		background-position: center;
+	}
+	.technology .technology_content .img .technology_content-title{
+		padding-bottom: 202px;
+	}
+	.technology .technology_content .technology_content-software .technology_content-title{
+		padding-top: 20px;
+	}
+	.technology .technology_content .technology_content-management .technology_content-title{
+		padding-top: 30px;
+	}
+	.technology .technology_content .technology_content-security .technology_content-title .title_box{
+		margin-top: -40px;
+	}
+	.technology .technology_content .technology_content-reform .technology_content-title .title_box{
+		margin-top: -15px;
+	}
+	.technology .technology_content .technology_content-plan .technology_content-title .title_box{
+		margin-top: -35px;
+	}
+	.technology .technology_content .technology_content-desktop .technology_content-title .title_box{
+		margin-top: -40px;
+	}
+	.technology .technology_content .technology_content-software .technology_content-title .title_box{
+		padding-top: 30px;
+	}
+
+	.testimonials .testimonials_staff{
+		width: 450px;
+		margin-left: 10px;
+	}
+	.testimonials .container{
+		max-width: 970px;
+	}
+	.phone .phone_contact{
+		padding-left: 100px;
+	}
+	.footer .footer_top .row .col-12{
+		text-align: center;
+	}
+	.footer .footer_top .row .col-12 .footer_top-info img{
+		display: inline;
+	}
+	.footer .footer_top .row .col-12 .footer_top-app{
+		display: flex;
+		justify-content: center;
+	}
+	.footer .footer_top .row .col-12 .footer_top-app .app_android{
+		margin-bottom: auto;
+		margin-right: 30px;
+	}
+	}
+@media(min-width: 768px) and (max-width: 991px) {
+	.headerpage .headerpage_menu .headerpage_search{
+			
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-logo a {
+		color: black;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-logo{
+		font-size: 20px;
+		margin-right: 25px;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-dropdown i{
+		font-size: 25px;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-icon{
+		display: none;
+	}
+	.header{
+		display: none;
+	}
+	.headerpage .headerpage_menu .headerpage_menu-list{
+		display: none;
+	}
+	.banner .container{
+		display: block;
+		text-align: center;
+	}
+	.banner .banner_content{
+		padding-top: 90px;
+	}
+	.banner .banner_content-one{
+		font-size: 17px;
+		letter-spacing: 1.6px;
+	}
+	.banner .banner_img{
+		margin-top: -370px;
+		left: 37%;
+
+	}
+	.banner .banner_img img{
+		height: 370px;
+	}
+	.banner .banner_content .banner_content-two{
+		width: 700px;
+		font-size: 50px;
+	}
+	.banner .banner_content-four{
+		font-size: 18px;
+	}
+	.banner .banner_content .banner_content-button{
+		justify-content: center;
+	}
+	.company .row .ground_img{
+		padding: 35%;
+    	margin-top: 100px;
+	}
+	.company .row .col-12 .company_img .company_img-one{
+		left: 0%;
+	}
+	.company .row .col-12 .company_img .company_img-four{
+		right: 6%;
+	}
+	.services .services_heading h p{
+		font-size: 30px;
+	}
+	.services .content .row{
+		grid-template-columns: repeat(4, 1fr);
+		display: grid;
+		grid-column-gap: 30px;
+		grid-row-gap: 30px;
+		margin-left: -30px;
+	}
+	.services .content .row .col-12{
+		grid-column: span 2;
+	}
+	.contact .contact_count{
+		display: block;
+	}
+	.contact .contact_count .contact_count-experience{
+		margin-left: 33%;
+	}
+	.contact .contact_count .contact_count-numbers{
+		display: flex;
+		justify-content: center;
+		padding-left: 100px;
+    	padding-right: 100px;
+    	justify-content: space-between;
+    	padding-top: 30px;
+	}
+	.contact .contact_count .contact_count-experience .experience_success{
+		font-size: 30px;
+	}
+	.security .security_content .security_content-title{
+		font-size: 50px;
+	}
+
+	.technology .technology_heading{
+		font-size: 38px;
+	}
+	.technology .technology_content{
+	grid-template-columns: repeat(8, 1fr);
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
+	}
+	.technology .technology_content .technology_content-management {
+		grid-column: span 4;
+		background-position: center;
+	}
+	.technology .technology_content .technology_content-security {
+		grid-column: span 4;
+		background-size: cover;
+    	background-position: center;
+	}
+	.technology .technology_content .technology_content-security .technology_content-title .title_box{
+		padding-top: 0px;
+	}
+	.technology .technology_content .technology_content-reform {
+		grid-column: span 4;
+		background-position: center;
+	}
+	.technology .technology_content .technology_content-plan {
+		grid-column: span 4;
+		background-repeat: round;
+	}
+	.technology .technology_content .technology_content-plan .technology_content-title .title_box{
+		padding-top: 0px;
+	}
+	.technology .technology_content .technology_content-desktop{
+		grid-column: span 4;
+		background-size: auto;
+		background-position: center;
+		height: 330px;
+	}
+	.technology .technology_content .technology_content-desktop .technology_content-title .title_box{
+		padding-top: 50px;
+	}
+	.technology .technology_content .technology_content-software {
+		grid-column: span 4;
+		background-position: center;
+		background-size: auto;
+	}
+	.technology .technology_content .technology_content-software .technology_content-title{
+		padding-bottom: 145px;
+	}
+	.testimonials .testimonials_heading{
+		font-size: 30px;
+	}
+	.testimonials .testimonials_heading span{
+		display: contents;
+	}
+	.testimonials .owl-carousel{
+		
+	}
+	.testimonials .testimonials_staff{
+		display: table-cell;
+	}
+	.testimonials .testimonials_staff{
+		margin:0px;
+	}
+	.testimonials .container{
+		max-width: 970px;
+	}
+	.phone .phone_contact{
+		padding-left: 40px;
+	}
+	.phone .phone_content .phone_content-heading {
+		width: 340px;
+		font-size: 28px;
+	}
+	.phone .phone_content .phone_content-below{
+		width: 340px;
+	}
+	
+	.footer .footer_top .row .col-12{
+		text-align: center;
+	}
+	.footer .footer_top .row .col-12 .footer_top-info img{
+		display: inline;
+	}
+	.footer .footer_top .row .col-12 .footer_top-app{
+		display: flex;
+		justify-content: center;
+	}
+	.footer .footer_top .row .col-12 .footer_top-app .app_android{
+		margin-bottom: auto;
+		margin-right: 30px;
+	}
+
+}
+
+
+
+
+@media(min-width: 426px) and (max-width: 767px) {
+	.headerpage .headerpage_menu .headerpage_search{
+			
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-logo a {
+		color: black;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-logo{
+		font-size: 20px;
+		margin-right: 25px;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-dropdown i{
+		font-size: 25px;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-icon{
+		display: none;
+	}
+	.header{
+		display: none;
+	}
+	.headerpage .headerpage_menu .headerpage_menu-list{
+		display: none;
+	}
+	.banner .container{
+		display: block;
+		text-align: center;
+	}
+	.banner .banner_content{
+		padding-top: 90px;
+	}
+	.banner .banner_content-one{
+		font-size: 17px;
+		letter-spacing: 1.6px;
+	}
+	.banner .banner_img{
+		margin-top: -370px;
+		right: 40%;
+
+	}
+	.banner .banner_img img{
+		height: 370px;
+	}
+	.banner .banner_content .banner_content-two{
+		display: inline-block;
+		width: auto;
+		font-size: 36px;
+	}
+	.banner .banner_content .banner_content-three{
+		font-size: 36px;
+	}
+	.banner .banner_content-four{
+		font-size: 17px;
+		padding-top: 40px;
+	}
+	.banner .banner_content .banner_content-button{
+		justify-content: center;
+	}
+	.company .row .ground_img{
+		padding: 35%;
+    	margin-top: 100px;
+    	margin-bottom: 100px;
+	}
+	.company .row .col-12 .company_img .company_img-one{
+		left: 0%;
+	}
+	.company .row .col-12 .company_img .company_img-two{
+		top: -8%;
+	}
+	.company .row .col-12 .company_img .company_img-three{
+		top: 90%;
+	}
+	.company .row .col-12 .company_img .company_img-four{
+		right: 0%;
+		top: 80%;
+	}
+	.company .row .col-12 .company_img .company_img-five{
+	left: 15%;
+    width: 320px;
+    height: 200px
+	}
+	.company .row .col-12 .company_img .company_img-five .five_animation-small{
+		height: 140px;
+		width: 140px;
+		left: 30%;
+	}
+	.company .row .col-12 .company_img .company_img-five .five_link .fa{
+		left: 40%;
+	}
+	.company .row .col-12 .company_img .company_img-five .five_animation-big{
+	height: 100px;
+    width: 100px;
+    top: 40%;
+    left: 37%;
+	}
+	.services .services_heading h p{
+		font-size: 30px;
+	}
+	.services .content .row{
+		grid-template-columns: repeat(2, 1fr);
+		display: grid;
+		grid-row-gap: 30px;
+		padding-left: -30px;
+	}
+	.services .services_title{
+		font-size: 13px;
+	}
+	.services .services_heading h p{
+		font-size: 30px;
+	}
+	.services .content .row{
+		margin-left: 8%;
+	}
+	.services .content .row .col-12{
+		grid-column: span 2;
+	}
+	.services .content .row .col-12 a{
+		width: 100%;
+	}
+	.contact .contact_count .contact_count-experience{
+		margin: auto;
+	}
+	.contact .contact_count .contact_count-experience .heading_title{
+		text-align: center;
+	}
+	.contact .contact_count{
+		display: block;
+	}
+	.contact .contact_count .contact_count-numbers{
+		display: block;
+		justify-content: center;
+		padding-left: 100px;
+    	padding-right: 100px;
+    	justify-content: space-between;
+    	padding-top: 30px;
+    	text-align: center;
+	}
+	.contact .contact_count .contact_count-experience .experience_success{
+		font-size: 30px;
+	}
+	.security .security_content .security_content-title{
+		font-size: 38px;
+	}
+	.technology .technology_heading{
+		font-size: 28px;
+	}
+	.technology .technology_content{
+	grid-template-columns: repeat(2, 1fr);
+	grid-row-gap: 30px;
+	}
+	.technology .technology_content .technology_content-management {
+		grid-column: span 2;
+		background-position: center;
+	}
+	.technology .technology_content .technology_content-management .technology_content-title .title_box{
+		padding-top: 15px;
+	}
+	.technology .technology_content .technology_content-security {
+		grid-column: span 2;
+		background-size: cover;
+    	background-position: center;
+    	height: 330px;
+	}
+	.technology .technology_content .technology_content-security .technology_content-title .title_box{
+		padding-top: 60px;
+	}
+	.technology .technology_content .technology_content-reform {
+		grid-column: span 2;
+		background-position: center;
+	}
+	.technology .technology_content .technology_content-plan {
+		grid-column: span 2;
+		background-repeat: round;
+	}
+	.technology .technology_content .technology_content-plan .technology_content-title .title_box{
+		padding-top: 10px;
+	}
+	.technology .technology_content .technology_content-desktop{
+		grid-column: span 2;
+		background-size: cover;
+		background-position: center;
+		height: 330px;
+	}
+	.technology .technology_content .technology_content-desktop .technology_content-title .title_box{
+		padding-top: 70px;
+	}
+	.technology .technology_content .technology_content-software {
+		grid-column: span 2;
+		background-position: center;
+		background-size: cover;
+		height: 330px;
+	}
+	.technology .technology_content .technology_content-software .technology_content-title .title_box{
+		padding-top: 10px;
+	}
+	.technology .technology_content .technology_content-software .technology_content-title{
+		padding-bottom: 145px;
+	}
+	.testimonials .testimonials_heading{
+		font-size: 30px;
+	}
+	.testimonials .testimonials_heading span{
+		display: contents;
+	}
+	.testimonials .owl-carousel{
+		
+	}
+	.testimonials .testimonials_staff{
+		display: table-cell;
+	}
+	.testimonials .testimonials_staff{
+		margin:0px;
+	}
+	.phone .container{
+		display: block;
+	}
+	.phone .phone_content{
+		padding-bottom: 30px;
+	}
+	.phone .phone_contact{
+		padding: 0px;
+		padding-bottom: 40px;
+	}
+	.phone .phone_content .phone_content-heading {
+		width: 70%;
+		display: block;
+		font-size: 30px;
+	}
+	.phone .phone_content .phone_content-below{
+		width: auto;
+		margin-left: 10%;
+	}
+	
+	.footer .footer_top .row .col-12{
+	}
+	.footer .footer_top .row .col-12 .top_line{
+		padding-top: 40px;
+	}
+	.footer .footer_top .row .col-12 .footer_top-info img{
+		display: inline;
+	}
+	.footer .footer_top .row .col-12 .footer_top-app{
+		display: flex;
+		justify-content: center;
+	}
+	.footer .footer_top .row .col-12 .footer_top-app .app_android{
+		margin-bottom: auto;
+		margin-right: 30px;
+	}
+	.footer .footer_bottom .footer_bottom-mitech{
+		display: block;
+	}
+
+}
+@media(min-width: 376px) and (max-width: 425px) {
+	.menu{
+		width: 80%;
+	}
+	.headerpage .headerpage_menu .headerpage_search{
+			
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-logo a {
+		color: black;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-logo{
+		display: none;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-dropdown i{
+		font-size: 25px;
+		margin-right: 25px;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-icon a{
+		position: relative;
+		font-size: 25px;
+		color: black;
+	}
+	.header{
+		display: none;
+	}
+	.headerpage .headerpage_menu .headerpage_menu-list{
+		display: none;
+	}
+	.banner .container{
+		display: block;
+		text-align: center;
+	}
+	.banner .banner_content{
+		padding-top: 90px;
+	}
+	.banner .banner_content-one{
+		font-size: 17px;
+		letter-spacing: 1.6px;
+	}
+	.banner .banner_img{
+		margin-top: -370px;
+		right: 30%;
+
+	}
+	.banner .banner_img img{
+		height: 370px;
+	}
+	.banner .banner_content .banner_content-two{
+		display: inline-block;
+		width: auto;
+		font-size: 36px;
+	}
+	.banner .banner_content .banner_content-three{
+		font-size: 36px;
+	}
+	.banner .banner_content-four{
+		font-size: 17px;
+		padding-top: 40px;
+	}
+	.banner .banner_content .banner_content-button{
+		justify-content: center;
+	}
+	.company .row .col-12 .company_content .company_content-heading .heading_title{
+		font-size: 26px;
+	}
+	.company .row .ground_img{
+		padding: 35%;
+    	margin-top: 100px;
+    	margin-bottom: 100px;
+	}
+	.company .row .col-12 .company_img .company_img-one{
+		left: 0%;
+	}
+	.company .row .col-12 .company_img .company_img-two{
+		top: -8%;
+	}
+	.company .row .col-12 .company_img .company_img-three{
+		top: 90%;
+	}
+	.company .row .col-12 .company_img .company_img-four{
+		right: 0%;
+		top: 90%;
+	}
+	.company .row .col-12 .company_img .company_img-five{
+	left: 15%;
+    width: 320px;
+    height: 200px
+	}
+	.company .row .col-12 .company_img .company_img-five .five_animation-small{
+		height: 140px;
+		width: 140px;
+		left: 30%;
+	}
+	.company .row .col-12 .company_img .company_img-five .five_link .fa{
+		left: 40%;
+	}
+	.company .row .col-12 .company_img .company_img-five .five_animation-big{
+	height: 100px;
+    width: 100px;
+    top: 40%;
+    left: 37%;
+	}
+	.services .services_heading h p{
+		font-size: 30px;
+	}
+	.services .content .row{
+		grid-template-columns: repeat(2, 1fr);
+		display: grid;
+		grid-row-gap: 30px;
+		padding-left: -30px;
+	}
+	.services .services_title{
+		font-size: 13px;
+	}
+	.services .services_heading h p{
+		font-size: 27px;
+	}
+	.services .content .row{
+		margin-left: 8%;
+	}
+	.services .content .row .col-12{
+		grid-column: span 2;
+	}
+	.services .content .row .col-12 a{
+		width: 100%;
+	}
+	.contact .contact_count .contact_count-experience{
+		margin: auto;
+	}
+	.contact .contact_count .contact_count-experience .heading_title{
+		text-align: center;
+	}
+	.contact .contact_count{
+		display: block;
+	}
+	.contact .contact_count .contact_count-numbers{
+		display: block;
+		justify-content: center;
+		padding-left: 100px;
+    	padding-right: 100px;
+    	justify-content: space-between;
+    	padding-top: 30px;
+    	text-align: center;
+	}
+	.contact .contact_count .contact_count-experience .experience_success{
+		font-size: 30px;
+	}
+	.security .security_content .security_content-title{
+		font-size: 38px;
+	}
+	.technology .technology_heading{
+		font-size: 28px;
+	}
+	.technology .technology_content{
+	grid-template-columns: repeat(2, 1fr);
+	grid-row-gap: 30px;
+	}
+	.technology .technology_content .technology_content-management {
+		grid-column: span 2;
+		background-position: center;
+	}
+	.technology .technology_content .technology_content-management .technology_content-title .title_box{
+		padding-top: 15px;
+	}
+	.technology .technology_content .technology_content-security {
+		grid-column: span 2;
+		background-size: cover;
+    	background-position: center;
+    	height: 330px;
+	}
+	.technology .technology_content .technology_content-security .technology_content-title .title_box{
+		padding-top: 60px;
+	}
+	.technology .technology_content .technology_content-reform {
+		grid-column: span 2;
+		background-position: center;
+	}
+	.technology .technology_content .technology_content-plan {
+		grid-column: span 2;
+		background-repeat: round;
+	}
+	.technology .technology_content .technology_content-plan .technology_content-title .title_box{
+		padding-top: 10px;
+	}
+	.technology .technology_content .technology_content-desktop{
+		grid-column: span 2;
+		background-size: cover;
+		background-position: center;
+		height: 330px;
+	}
+	.technology .technology_content .technology_content-desktop .technology_content-title .title_box{
+		padding-top: 70px;
+	}
+	.technology .technology_content .technology_content-software {
+		grid-column: span 2;
+		background-position: center;
+		background-size: cover;
+		height: 330px;
+	}
+	.technology .technology_content .technology_content-software .technology_content-title .title_box{
+		padding-top: 10px;
+	}
+	.technology .technology_content .technology_content-software .technology_content-title{
+		padding-bottom: 145px;
+	}
+	.testimonials .testimonials_heading{
+		font-size: 30px;
+	}
+	.testimonials .testimonials_heading span{
+		display: contents;
+	}
+	.testimonials .owl-carousel{
+		
+	}
+	.testimonials .testimonials_staff{
+		display: table-cell;
+	}
+	.testimonials .testimonials_staff{
+		margin:0px;
+	}
+	.phone .container{
+		display: block;
+	}
+	.phone .phone_content{
+		padding-bottom: 30px;
+	}
+	.phone .phone_contact{
+		padding: 0px;
+		padding-bottom: 40px;
+	}
+	.phone .phone_content .phone_content-heading {
+		width: 100%;
+		display: block;
+		font-size: 30px;
+	}
+	.phone .phone_content .phone_content-below{
+		width: auto;
+		margin-left: 10%;
+	}
+	
+	.footer .footer_top .row .col-12{
+	}
+	.footer .footer_top .row .col-12 .top_line{
+		padding-top: 40px;
+	}
+	.footer .footer_top .row .col-12 .footer_top-info img{
+		display: inline;
+	}
+	.footer .footer_top .row .col-12 .footer_top-app{
+		display: flex;
+		justify-content: center;
+	}
+	.footer .footer_top .row .col-12 .footer_top-app .app_android{
+		margin-bottom: auto;
+		margin-right: 30px;
+	}
+	.footer .footer_bottom .footer_bottom-mitech{
+		display: block;
+	}
+
+}
+
+
+
+
+
+@media(max-width: 375px){
+	.menu{
+		width: 80%;
+	}
+	.headerpage .headerpage_menu .headerpage_search{
+			
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-logo a {
+		color: black;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-logo{
+		display: none;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-dropdown i{
+		font-size: 25px;
+		margin-right: 25px;
+	}
+	.headerpage .headerpage_menu .headerpage_search .headerpage_search-icon a{
+		font-size: 25px;
+		color: black;
+	}
+	.header{
+		display: none;
+	}
+	.headerpage .headerpage_menu .headerpage_menu-list{
+		display: none;
+	}
+	.banner .container{
+		display: block;
+		text-align: center;
+	}
+	.banner .banner_content{
+		padding-top: 90px;
+	}
+	.banner .banner_content-one{
+		font-size: 17px;
+		letter-spacing: 1.6px;
+	}
+	.banner .banner_img{
+		margin-top: -370px;
+		right: 30%;
+
+	}
+	.banner .banner_img img{
+		height: 370px;
+	}
+	.banner .banner_content .banner_content-two{
+		display: inline-block;
+		width: auto;
+		font-size: 36px;
+	}
+	.banner .banner_content .banner_content-three{
+		font-size: 36px;
+	}
+	.banner .banner_content-four{
+		font-size: 17px;
+		padding-top: 40px;
+	}
+	.banner .banner_content .banner_content-button{
+		justify-content: center;
+	}
+	.company .row .col-12 .company_content .company_content-heading .heading_title{
+		font-size: 26px;
+	}
+	.company .row .ground_img{
+		padding: 35%;
+    	margin-top: 100px;
+    	margin-bottom: 100px;
+	}
+	.company .row .col-12 .company_img .company_img-one{
+		left: 0%;
+	}
+	.company .row .col-12 .company_img .company_img-two{
+		top: -8%;
+		right: 10%;
+	}
+	.company .row .col-12 .company_img .company_img-three{
+		top: 85%;
+		left: 5%;
+	}
+	.company .row .col-12 .company_img .company_img-four{
+		right: 5%;
+		top: 75%;
+	}
+	.company .row .col-12 .company_img .company_img-five{
+	left: 15%;
+    width: 250px;
+    height: 150px
+	}
+	.company .row .col-12 .company_img .company_img-five .five_animation-small{
+		height: 140px;
+		width: 140px;
+		left: 27%;
+    	top: 10%;
+	}
+	.company .row .col-12 .company_img .company_img-five .five_link .fa{
+		top: 30%;
+		left: 40%;
+	}
+	.company .row .col-12 .company_img .company_img-five .five_animation-big{
+	height: 100px;
+    width: 100px;
+    top: 24%;
+    left: 36%;
+	}
+	.services .services_heading h p{
+		font-size: 30px;
+	}
+	.services .content .row{
+		grid-template-columns: repeat(2, 1fr);
+		display: grid;
+		grid-row-gap: 30px;
+		padding-left: -30px;
+	}
+	.services .services_title{
+		font-size: 13px;
+	}
+	.services .services_heading h p{
+		font-size: 27px;
+	}
+	.services .content .row{
+		margin-left: 0%;
+	}
+	.services .content .row .col-12{
+		grid-column: span 2;
+	}
+	.services .content .row .col-12 a{
+		width: 100%;
+	}
+	.contact .contact_count .contact_count-experience{
+		margin: auto;
+		width: 100%;
+	}
+	.contact .contact_count .contact_count-experience .heading_title{
+		text-align: center;
+	}
+	.contact .contact_count{
+		display: block;
+	}
+	.contact .contact_count .contact_count-numbers{
+		display: block;
+		justify-content: center;
+		padding-left: 100px;
+    	padding-right: 100px;
+    	justify-content: space-between;
+    	padding-top: 30px;
+    	text-align: center;
+	}
+	.contact .contact_count .contact_count-experience .experience_success{
+		font-size: 30px;
+	}
+	.contact .contact_count .contact_count-experience .heading span{
+		font-size: 150px;
+	}
+	.security .security_content .security_content-title{
+		font-size: 38px;
+	}
+	.technology .technology_heading{
+		font-size: 28px;
+	}
+	.technology .technology_content{
+	grid-template-columns: repeat(2, 1fr);
+	grid-row-gap: 30px;
+	}
+	.technology .technology_content .technology_content-management {
+		grid-column: span 2;
+		background-position: center;
+	}
+	.technology .technology_content .technology_content-management .technology_content-title .title_box{
+		padding-top: 15px;
+	}
+	.technology .technology_content .technology_content-security {
+		grid-column: span 2;
+		background-size: cover;
+    	background-position: center;
+    	height: 330px;
+	}
+	.technology .technology_content .technology_content-security .technology_content-title .title_box{
+		padding-top: 60px;
+	}
+	.technology .technology_content .technology_content-reform {
+		grid-column: span 2;
+		background-position: center;
+	}
+	.technology .technology_content .technology_content-plan {
+		grid-column: span 2;
+		background-repeat: round;
+	}
+	.technology .technology_content .technology_content-plan .technology_content-title .title_box{
+		padding-top: 10px;
+	}
+	.technology .technology_content .technology_content-desktop{
+		grid-column: span 2;
+		background-size: cover;
+		background-position: center;
+		height: 330px;
+	}
+	.technology .technology_content .technology_content-desktop .technology_content-title .title_box{
+		padding-top: 70px;
+	}
+	.technology .technology_content .technology_content-software {
+		grid-column: span 2;
+		background-position: center;
+		background-size: cover;
+		height: 330px;
+	}
+	.technology .technology_content .technology_content-software .technology_content-title .title_box{
+		padding-top: 10px;
+	}
+	.technology .technology_content .technology_content-software .technology_content-title{
+		padding-bottom: 145px;
+	}
+	.technology .technology_select{
+		display: grid;
+	}
+	.technology .technology_select .select-link{
+		margin: auto;
+	}
+	.technology .technology_select .technology_select-learn{
+		margin-bottom: 20px;
+	}
+	.testimonials .testimonials_heading{
+		font-size: 30px;
+	}
+	.testimonials .testimonials_heading span{
+		display: contents;
+	}
+	.testimonials .owl-carousel{
+		
+	}
+	.testimonials .testimonials_staff{
+		display: table-cell;
+	}
+	.testimonials .testimonials_staff{
+		margin:0px;
+	}
+	.logo .owl-carousel .owl-stage .owl-item{
+
+	}
+	.phone .container{
+		display: block;
+	}
+	.phone .phone_content{
+		padding-bottom: 30px;
+	}
+	.phone .phone_contact{
+		padding: 0px;
+		padding-bottom: 40px;
+	}
+	.phone .phone_content .phone_content-heading {
+		width: 100%;
+		display: block;
+		font-size: 30px;
+	}
+	.phone .phone_content .phone_content-below{
+		width: auto;
+		margin-left: 10%;
+	}
+	
+	.footer .footer_top .row .col-12{
+	}
+	.footer .footer_top .row .col-12 .top_line{
+		padding-top: 40px;
+	}
+	.footer .footer_top .row .col-12 .footer_top-info img{
+		display: inline;
+	}
+	.footer .footer_top .row .col-12 .footer_top-app{
+		display: flex;
+		justify-content: center;
+	}
+	.footer .footer_top .row .col-12 .footer_top-app .app_android{
+		margin-bottom: auto;
+		margin-right: 30px;
+	}
+	.footer .footer_bottom .footer_bottom-mitech{
+		display: block;
+	}
+
+	.footer .footer_top .row .col-12 .footer_top-app{
+		display: block;
+		width: 160px;
+
+	}
+	.footer .footer_top .row .col-12 .footer_top-app .app_android{
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+}
+
+
+
